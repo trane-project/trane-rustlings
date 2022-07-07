@@ -1,3 +1,5 @@
+mod rustlings;
+
 use anyhow::Result;
 use trane::course_builder::CourseBuilder;
 
