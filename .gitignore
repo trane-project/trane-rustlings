@@ -9,5 +9,6 @@
 
 /target
 
-# Ignore the .trane folder.
+# Ignore trane config files and directories.
 .trane/
+.trane_history

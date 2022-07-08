@@ -1,0 +1,14 @@
+{
+  "id": "trane::programming::rust::rustlings::lesson_30::using_as",
+  "lesson_id": "trane::programming::rust::rustlings::lesson_30",
+  "course_id": "trane::programming::rust::rustlings",
+  "name": "using_as",
+  "description": null,
+  "exercise_type": "Procedural",
+  "exercise_asset": {
+    "FlashcardAsset": {
+      "front_path": "front.md",
+      "back_path": "back.md"
+    }
+  }
+}

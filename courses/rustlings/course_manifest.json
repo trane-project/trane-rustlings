@@ -1,0 +1,20 @@
+{
+  "id": "trane::programming::rust::rustlings",
+  "name": "Rustlings",
+  "dependencies": [],
+  "description": "Learn Rust with Rustlings and Trane",
+  "authors": [
+    "The Trane Project"
+  ],
+  "metadata": {
+    "programming_language": [
+      "rust"
+    ]
+  },
+  "course_material": null,
+  "course_instructions": {
+    "MarkdownAsset": {
+      "path": "instructions.md"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "trane::programming::rust::rustlings::lesson_17::errors4",
+  "lesson_id": "trane::programming::rust::rustlings::lesson_17",
+  "course_id": "trane::programming::rust::rustlings",
+  "name": "errors4",
+  "description": null,
+  "exercise_type": "Procedural",
+  "exercise_asset": {
+    "FlashcardAsset": {
+      "front_path": "front.md",
+      "back_path": "back.md"
+    }
+  }
+}
