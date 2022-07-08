@@ -1,0 +1,14 @@
+{
+  "id": "trane::programming::rust::rustlings::lesson_7::move_semantics4",
+  "lesson_id": "trane::programming::rust::rustlings::lesson_7",
+  "course_id": "trane::programming::rust::rustlings",
+  "name": "move_semantics4",
+  "description": null,
+  "exercise_type": "Procedural",
+  "exercise_asset": {
+    "FlashcardAsset": {
+      "front_path": "front.md",
+      "back_path": "back.md"
+    }
+  }
+}

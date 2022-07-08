@@ -1,0 +1,14 @@
+{
+  "id": "trane::programming::rust::rustlings::lesson_28",
+  "dependencies": [
+    "trane::programming::rust::rustlings::lesson_25",
+    "trane::programming::rust::rustlings::lesson_26",
+    "trane::programming::rust::rustlings::lesson_27"
+  ],
+  "course_id": "trane::programming::rust::rustlings",
+  "name": "Lesson 28",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}

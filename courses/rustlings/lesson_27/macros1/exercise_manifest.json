@@ -1,0 +1,14 @@
+{
+  "id": "trane::programming::rust::rustlings::lesson_27::macros1",
+  "lesson_id": "trane::programming::rust::rustlings::lesson_27",
+  "course_id": "trane::programming::rust::rustlings",
+  "name": "macros1",
+  "description": null,
+  "exercise_type": "Procedural",
+  "exercise_asset": {
+    "FlashcardAsset": {
+      "front_path": "front.md",
+      "back_path": "back.md"
+    }
+  }
+}

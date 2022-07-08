@@ -1,0 +1,14 @@
+{
+  "id": "trane::programming::rust::rustlings::lesson_26::iterators1",
+  "lesson_id": "trane::programming::rust::rustlings::lesson_26",
+  "course_id": "trane::programming::rust::rustlings",
+  "name": "iterators1",
+  "description": null,
+  "exercise_type": "Procedural",
+  "exercise_asset": {
+    "FlashcardAsset": {
+      "front_path": "front.md",
+      "back_path": "back.md"
+    }
+  }
+}

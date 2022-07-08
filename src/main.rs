@@ -9,7 +9,7 @@ fn main() -> Result<()> {
     let curr_dir = std::env::current_dir()?;
 
     let course_builders: Vec<CourseBuilder> = vec![
-
+        rustlings::course_builder(),
     ];
 
     for course_builder in course_builders {

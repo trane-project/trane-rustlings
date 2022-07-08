@@ -1,0 +1,19 @@
+{
+  "id": "trane::programming::rust::rustlings::lesson_16",
+  "dependencies": [
+    "trane::programming::rust::rustlings::lesson_7",
+    "trane::programming::rust::rustlings::lesson_9",
+    "trane::programming::rust::rustlings::lesson_10",
+    "trane::programming::rust::rustlings::lesson_11",
+    "trane::programming::rust::rustlings::lesson_12",
+    "trane::programming::rust::rustlings::lesson_13",
+    "trane::programming::rust::rustlings::lesson_14",
+    "trane::programming::rust::rustlings::lesson_15"
+  ],
+  "course_id": "trane::programming::rust::rustlings",
+  "name": "Lesson 16",
+  "description": null,
+  "metadata": null,
+  "lesson_material": null,
+  "lesson_instructions": null
+}
