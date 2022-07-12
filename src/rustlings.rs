@@ -52,6 +52,7 @@ impl RustlingsLesson {
             exercises.push(ExerciseBuilder {
                 directory_name: exercise_name.clone(),
                 manifest_closure: Box::new(move |m| {
+                    #[allow(clippy::redundant_clone)]
                     m.clone()
                         .id(exercise_id.clone())
                         .name(exercise_name.clone())
@@ -77,19 +78,19 @@ impl RustlingsLesson {
         }
 
         let lesson_id_clone = lesson_id.clone();
-        let name_clone = lesson_name.clone();
         LessonBuilder {
             directory_name: format!("lesson_{}", self.uid),
             asset_builders: vec![],
             manifest_closure: Box::new(move |m| {
+                #[allow(clippy::redundant_clone)]
                 m.clone()
                     .id(lesson_id_clone.clone())
-                    .name(name_clone.clone())
+                    .name(lesson_name.clone())
                     .dependencies(dependencies.clone())
                     .clone()
             }),
             exercise_manifest_template: ExerciseManifestBuilder::default()
-                .lesson_id(lesson_id.clone())
+                .lesson_id(lesson_id)
                 .course_id(COURSE_ID.to_string())
                 .exercise_type(ExerciseType::Procedural)
                 .exercise_asset(ExerciseAsset::FlashcardAsset {
