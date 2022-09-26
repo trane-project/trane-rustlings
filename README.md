@@ -38,6 +38,9 @@ this exercise, assign yourself a score from one to five (five being the highest)
 score is five. You can tell Trane to record it by running the command `score 5`. Then, run `next`
 again to move on to the next exercise.
 
+See also the [quick start](https://trane-project.github.io/quick_start.html) guide at the official
+site.
+
 # Tips
 
 - Undo your work after you are finished with each exercise, so you do not see the answer the next
