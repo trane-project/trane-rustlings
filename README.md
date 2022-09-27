@@ -1,8 +1,9 @@
 # trane-rustlings
 
-This course is meant to showcase how Trane can be used to augment existing educational material, in
-this case, [rustlings](https://github.com/rust-lang/rustlings/). The exercises here just reference
-the exercises in rustlings by name. Using both side by side, you can reinforce your practice by
+This course is meant to showcase how [Trane](https://github.com/trane-project/trane) can be used to
+augment existing educational material, in this case,
+[rustlings](https://github.com/rust-lang/rustlings/). The exercises here just reference the
+exercises in rustlings by name. Using both side by side, you can reinforce your practice by
 automatically moving on to harder topics once the easier topics are mastered and periodically
 reinforcing already mastered exercises.
 
@@ -14,9 +15,9 @@ introduce how rustlings work.
 
 # Instructions
 
-Follow the instructions in the rustlings repo to install it. Then, install
-[trane-cli](https://github.com/trane-project/trane-cli) somewhere in your system's path by either
-building it from source or downloading one of the prebuilt binaries.
+See the [quick start](https://trane-project.github.io/quick_start.html) guide at the official
+site for basic instructions on how to download Trane onto your computer. The instructions that
+follow are more specific to this course.
 
 Then, open two terminals. In the first one go to the root of this repo and type `trane`. You will be
 met with Trane's command line. Run the command `open ./` to load the course. You can enter the
@@ -38,10 +39,7 @@ this exercise, assign yourself a score from one to five (five being the highest)
 score is five. You can tell Trane to record it by running the command `score 5`. Then, run `next`
 again to move on to the next exercise.
 
-See also the [quick start](https://trane-project.github.io/quick_start.html) guide at the official
-site.
-
-# Tips
+## Tips
 
 - Undo your work after you are finished with each exercise, so you do not see the answer the next
   time the exercise is selected.
