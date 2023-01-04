@@ -1,6 +1,5 @@
-use std::{collections::BTreeMap, vec};
-
 use indoc::{formatdoc, indoc};
+use std::{collections::BTreeMap, vec};
 use trane::{
     course_builder::{AssetBuilder, CourseBuilder, ExerciseBuilder, LessonBuilder},
     data::{
@@ -8,6 +7,7 @@ use trane::{
         LessonManifestBuilder,
     },
 };
+use ustr::Ustr;
 
 use crate::AUTHORS;
 
@@ -38,10 +38,10 @@ impl RustlingsLesson {
     fn lesson_builder(&self) -> LessonBuilder {
         let lesson_name = format!("Lesson {}", self.uid);
         let lesson_id = format!("{}::lesson_{}", COURSE_ID, self.uid);
-        let dependencies: Vec<String> = self
+        let dependencies: Vec<Ustr> = self
             .dependencies
             .iter()
-            .map(|id| format!("{}::lesson_{}", COURSE_ID, id))
+            .map(|id| format!("{}::lesson_{}", COURSE_ID, id).into())
             .collect();
 
         let mut exercises = vec![];
@@ -112,7 +112,7 @@ impl RustlingsCourse {
         CourseBuilder {
             directory_name: "rustlings".to_string(),
             course_manifest: CourseManifest {
-                id: COURSE_ID.to_string(),
+                id: COURSE_ID.into(),
                 name: "Rustlings".to_string(),
                 dependencies: vec![],
                 description: Some("Learn Rust with Rustlings and Trane".to_string()),
@@ -125,6 +125,7 @@ impl RustlingsCourse {
                     path: "instructions.md".to_string(),
                 }),
                 course_material: None,
+                generator_config: None,
             },
             asset_builders: vec![AssetBuilder {
                 file_name: "instructions.md".to_string(),
