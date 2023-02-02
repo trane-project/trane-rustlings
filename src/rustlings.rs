@@ -66,13 +66,6 @@ impl RustlingsLesson {
                         ", exercise}
                         .to_string(),
                     },
-                    AssetBuilder {
-                        file_name: "back.md".to_string(),
-                        contents: indoc! {"
-                            Check your work via Rustlings and score this exercise accordingly.
-                        "}
-                        .to_string(),
-                    },
                 ],
             });
         }
@@ -95,7 +88,7 @@ impl RustlingsLesson {
                 .exercise_type(ExerciseType::Procedural)
                 .exercise_asset(ExerciseAsset::FlashcardAsset {
                     front_path: "front.md".to_string(),
-                    back_path: "back.md".to_string(),
+                    back_path: None,
                 })
                 .clone(),
             exercise_builders: exercises,

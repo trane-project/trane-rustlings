@@ -8,7 +8,7 @@
   "exercise_asset": {
     "FlashcardAsset": {
       "front_path": "front.md",
-      "back_path": "back.md"
+      "back_path": null
     }
   }
 }

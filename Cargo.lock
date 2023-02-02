@@ -362,9 +362,9 @@ checksum = "25c7df09945d65ea8d70b3321547ed414bbc540aad5bac6883d021b970f35b04"
 
 [[package]]
 name = "fastfield_codecs"
-version = "0.3.0"
+version = "0.3.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3e7974d8d02ce96ba398517c8f5d68d9663c749b6c7acb0ec9770545f9fdfafc"
+checksum = "374a3a53c1bd5fb31b10084229290eafb0a05f260ec90f1f726afffda4877a8a"
 dependencies = [
  "fastdivide",
  "itertools",
@@ -497,6 +497,12 @@ name = "indoc"
 version = "1.0.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "da2d6f23ffea9d7e76c53eee25dfb67bcd8fde7f1198b0855350698c9f07c780"
+
+[[package]]
+name = "indoc"
+version = "2.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6fe2b9d82064e8a0226fddb3547f37f28eaa46d0fc210e275d835f08cf3b76a7"
 
 [[package]]
 name = "instant"
@@ -1137,9 +1143,9 @@ dependencies = [
 
 [[package]]
 name = "tantivy"
-version = "0.19.0"
+version = "0.19.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b90159ddd3ab4cbb177100c475d84c896f3e94b0b8dd2954b115985024215877"
+checksum = "513d4e19dc483209aa0ff9dc40d831f5bfa529917ae836b6fc1f01113ec84dc7"
 dependencies = [
  "aho-corasick",
  "arc-swap",
@@ -1379,14 +1385,14 @@ dependencies = [
 
 [[package]]
 name = "trane"
-version = "0.9.0"
+version = "0.10.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "fcbebee897758c00403d4f7e8128bb46e30c375470334d7dbf7cd7828122e5b0"
+checksum = "6ec17ffd05130281655696707728f9477e03d89370f1f8f90e46af62d307e3b9"
 dependencies = [
  "anyhow",
  "chrono",
  "derive_builder",
- "indoc",
+ "indoc 2.0.0",
  "lazy_static",
  "mantra-miner",
  "parking_lot 0.12.1",
@@ -1410,7 +1416,7 @@ name = "trane-rustlings"
 version = "0.1.0"
 dependencies = [
  "anyhow",
- "indoc",
+ "indoc 1.0.8",
  "tempfile",
  "trane",
  "ustr",
